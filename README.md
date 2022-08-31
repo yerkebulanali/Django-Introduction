@@ -21,3 +21,12 @@ Steps:
    - python3 manage.py runserver
 7. Download and Install Pycharm
    - [Pycharm](https://www.jetbrains.com/pycharm/download)
+8. Create App
+   - django-admin startapp demo
+9. Migrations
+   - python3 manage.py migrate
+10. Create in demo/models.py class `Book`
+11. Add first/settings.py section INSTALLED_APPS new app `demo`
+12. Apply new class for migrations
+    - python3 manage.py makemigrations
+    - python3 manage.py migrate
