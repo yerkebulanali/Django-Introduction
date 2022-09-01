@@ -33,3 +33,8 @@ Steps:
 13. Create user and admin
     - python3 manage.py createsuperuser
 14. Add first/admin.py class `Book`
+15. Field Options
+    - [Django Model field reference](https://docs.djangoproject.com/en/4.1/ref/models/fields/)
+16. Change class `Book` in demo/models.py and migrate
+    - python3 manage.py makemigrations
+    - python3 manage.py migrate
