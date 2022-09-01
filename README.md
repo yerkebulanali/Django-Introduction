@@ -30,3 +30,6 @@ Steps:
 12. Apply new class for migrations
     - python3 manage.py makemigrations
     - python3 manage.py migrate
+13. Create user and admin
+    - python3 manage.py createsuperuser
+14. Add first/admin.py class `Book`
