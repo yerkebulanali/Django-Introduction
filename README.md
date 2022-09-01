@@ -34,7 +34,13 @@ Steps:
     - python3 manage.py createsuperuser
 14. Add first/admin.py class `Book`
 15. Field Options
-    - [Django Model field reference](https://docs.djangoproject.com/en/4.1/ref/models/fields/)
-16. Change class `Book` in demo/models.py and migrate
+    - [field options](https://docs.djangoproject.com/en/4.1/ref/models/fields/#field-options)
+16. Change field options in class `Book` in demo/models.py and migrate
     - python3 manage.py makemigrations
     - python3 manage.py migrate
+17. Field Types
+    - [field options](https://docs.djangoproject.com/en/4.1/ref/models/fields/#field-types)
+18. Add *description, price, published, is_published, cover* in class `Book` in demo/models.py and migrate
+    - python3 manage.py makemigrations
+    - python3 manage.py migrate
+19. 
