@@ -46,4 +46,4 @@ Steps:
 20. Create new *urls.py* in `demo` directory and add 'demo.urls' path to *first/urls.py*
 21. Create function in *demo/views.py* file and add the function name to `demo/urls.py` file
 22. Create Another class in *demo/views.py* file and add the function name to `demo/urls.py` file
-23. 
+23. Add title, id of books to `Another class` in *demo/views.py* and use all(), filter(), get()
