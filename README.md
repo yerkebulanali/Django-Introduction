@@ -47,3 +47,10 @@ Steps:
 21. Create function in *demo/views.py* file and add the function name to `demo/urls.py` file
 22. Create Another class in *demo/views.py* file and add the function name to `demo/urls.py` file
 23. Add title, id of books to `Another class` in *demo/views.py* and use all(), filter(), get()
+24. Templates
+    - Add 'templates' in first/settings.py TEMPLATES->DIRS->'templates'
+    - Create first_temp.html add some text in h1 and h2
+    - add 'first_temp.html' in demo/views.py
+    - Change url in demo/urls.py 
+    - Change code in demo/views.py
+25. 
