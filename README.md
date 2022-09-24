@@ -53,4 +53,6 @@ Steps:
     - add 'first_temp.html' in demo/views.py
     - Change url in demo/urls.py 
     - Change code in demo/views.py
-25. 
+25. DjangoRestFramework
+    - pip install djangorestframework
+    - add in INSTALLED_APPS (setting.py) 'rest_framework'
