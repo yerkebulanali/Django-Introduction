@@ -70,3 +70,7 @@ Steps:
     }`
     - add in views.py `authentication_classes`
     - add in views.py `permission_classes`
+28. One to one
+    - add in models.py `BookNumber`
+    - add in admin.py `BookNumber`
+    - add in serializers.py `BookNumberSerializer`
