@@ -62,3 +62,9 @@ Steps:
 26. Token
     - add in INSTALLED_APPS (setting.py) `rest_framework.authtoken`
     - add in first/urls.py `path('auth/', obtain_auth_token)`
+27. Permissions
+    - add in settings.py `REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    )
+    }`
