@@ -68,3 +68,5 @@ Steps:
         'rest_framework.permissions.IsAuthenticated',
     )
     }`
+    - add in views.py `authentication_classes`
+    - add in views.py `permission_classes`
