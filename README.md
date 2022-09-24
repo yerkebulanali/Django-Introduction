@@ -74,3 +74,7 @@ Steps:
     - add in models.py `BookNumber`
     - add in admin.py `BookNumber`
     - add in serializers.py `BookNumberSerializer`
+29. One to Many
+    - add in models.py `Character`
+    - add in admin.py `Character`
+    - - add in serializers.py `CharacterSerializer`
