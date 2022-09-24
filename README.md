@@ -56,3 +56,6 @@ Steps:
 25. DjangoRestFramework
     - pip install djangorestframework
     - add in INSTALLED_APPS (setting.py) 'rest_framework'
+    - add file serializers.py
+    - change views.py file
+    - change urls.py file
