@@ -55,7 +55,10 @@ Steps:
     - Change code in demo/views.py
 25. DjangoRestFramework
     - pip install djangorestframework
-    - add in INSTALLED_APPS (setting.py) 'rest_framework'
+    - add in INSTALLED_APPS (setting.py) `rest_framework`
     - add file serializers.py
     - change views.py file
     - change urls.py file
+26. Token
+    - add in INSTALLED_APPS (setting.py) `rest_framework.authtoken`
+    - add in first/urls.py `path('auth/', obtain_auth_token)`
